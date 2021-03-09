@@ -1,6 +1,12 @@
+import { withPluginApi } from 'discourse/lib/plugin-api';
+
 export default {
-  name: 'alert',
+  name: 'with-plugin-sample',
   initialize() {
-    console.log('alert boxes are annoying!');
+
+     withPluginApi('0.1', api => {       
+       api.onPageChange(() => console.log('user navigated!'));
+     });
+
   }
-};
+}
