@@ -1,0 +1,7 @@
+plugins:
+  tcf_api_enabled:
+    default: true
+    client: true
+  tcf_api_max_volume:
+    default: 10
+    client: true
