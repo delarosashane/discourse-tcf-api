@@ -4,3 +4,7 @@
 # authors: Concentrical
 
 enabled_site_setting :tcf_api_enabled
+
+# after initialize do 
+#   alert("initialized asdasd");
+# end
