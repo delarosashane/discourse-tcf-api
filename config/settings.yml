@@ -2,6 +2,18 @@ plugins:
   tcf_api_enabled:
     default: true
     client: true
+  tcf_api_url:
+    default: "https://tcf-api-staging.ucoachapp.com"
+    client: true
+  discourse_api_url:
+    default: "http://localhost:3000"
+    client: true
+  discourse_api_key:
+    default: "19c9420d8c089618bd0acbeac97f0fbba56ea10aecab710352f5ecb0722d0ebd"
+    client: true
+  discourse_api_username:
+    default: "system"
+    client: true
   # tcf_api_max_volume:
   #   default: 10
   #   client: true

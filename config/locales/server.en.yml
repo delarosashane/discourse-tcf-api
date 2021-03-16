@@ -1,4 +1,8 @@
 en:
   site_settings:
     tcf_api_enabled: "Enable connection to tcf-api for user authentication?"
+    tcf_api_url: "TCF API URL to connect with Discourse"
+    discourse_api_url: "Discourse URL to use for API"
+    discourse_api_key: "Discourse API key (You must generate an API key in the admin settings)"
+    discourse_api_username: "Discourse API username"
     # tcf_api_max_volume: "What is the maximum volume possible?"
